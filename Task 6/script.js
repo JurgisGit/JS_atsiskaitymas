@@ -44,3 +44,11 @@ function getUsersNames(users) {
 }
 const totalNames = getUsersNames(users)
 console.log(totalNames)
+
+
+
+function getUsersNames3(users) {
+  return users.map(user => user.name)
+}
+const names = getUsersNames3(users)
+console.log(names)

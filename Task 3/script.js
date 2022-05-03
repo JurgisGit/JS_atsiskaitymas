@@ -23,4 +23,7 @@ async function append() {
                 output.appendChild(div)
                 div.textContent += `${users[i].login} – ${users[i].avatar_url}`;
     }
+    const text = document.getElementById("message")
+    text.remove()
+}
 
